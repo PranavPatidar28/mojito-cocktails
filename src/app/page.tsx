@@ -1,4 +1,5 @@
 "use client";
+import Cocktails from "@/components/Cocktails";
 import HeroSection from "@/components/HeroSection";
 import { Navbar } from "@/components/Navbar";
 import { useGSAP } from "@gsap/react";
@@ -12,7 +13,7 @@ export default function Home() {
     <div>
       <Navbar />
       <HeroSection />
-      <div className="h-screen bg-black"></div>
+      <Cocktails />
     </div>
   );
 }
